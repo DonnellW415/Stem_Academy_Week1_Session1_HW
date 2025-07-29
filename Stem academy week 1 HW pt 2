@@ -1,0 +1,28 @@
+// Week 1 Session 1 Homework: Multi-Conversion Program
+// Run this file using Code Runner (right-click > Run Code or Ctrl+Alt+N)
+
+// Task 1: Temperature Conversion
+// TODO: Convert Celsius to Fahrenheit
+// Formula: F = C * 9/5 + 32
+let temperatureCelsius = 25;
+let temperatureFahrenheit = ((temperatureCelsius * (9/5)) + 32)
+console.log("Temperature conversion: " + temperatureCelsius + "°C = " + temperatureFahrenheit + "°F");
+
+
+// Task 2: Distance Conversion
+// TODO: Convert miles to kilometers
+// Formula: 1 mile = 1.60934 kilometers
+let distanceMiles = 5;
+let distanceKM = 1.60934 * distanceMiles;
+
+console.log("Distance conversion: " + distanceMiles + " miles = " + distanceKM + " kilometers");
+
+
+// Task 3: Currency Conversion
+// TODO: Convert USD to EUR
+// Use fixed rate: 1 USD = 0.92 EUR
+let amountUSD = 100;
+let amountEUR = amountUSD * 0.92
+
+console.log("Currency conversion: $" + amountUSD + " =  €" + amountEUR);
+
